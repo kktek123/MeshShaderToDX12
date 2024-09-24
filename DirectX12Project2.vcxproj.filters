@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="D3D">
+      <UniqueIdentifier>{4d747d64-511d-4fb2-b431-5dbe465a6edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{9ca07d43-08c4-42cf-9ed9-758676ce6531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Execute">
+      <UniqueIdentifier>{482bd31f-478d-4bf4-aa61-ef76fd7010ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DescriptorAllocator">
+      <UniqueIdentifier>{2af046d7-31e2-406a-91fc-61079e491ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{30d6092f-39e4-4c5f-8350-45b3ea8e64b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{08c756cd-759a-4b26-b647-40280664190d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{eee3c7f4-cb94-4a12-bf26-113c7f819cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewContext">
+      <UniqueIdentifier>{15bf7270-46ba-443f-9b04-4a398486d489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{6ede50d1-cb24-4cd9-9b61-c5fa25725f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{971dbffc-f23d-4176-9b92-25211cd8576e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{d0a8d89c-1ba8-4fa6-9740-0fd70d4b9b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{7f6370ab-d858-4574-a8f5-b90bcdda6d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshShading">
+      <UniqueIdentifier>{a086ec64-211d-45fb-b329-99b97312cc70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Amp">
+      <UniqueIdentifier>{d8320bf6-7891-4b43-ae35-af2758c2a938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Raytracing">
+      <UniqueIdentifier>{d3479a58-1f0a-4442-b646-3f182b22eee4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="DescriptorAllocator.cpp">
+      <Filter>DescriptorAllocator</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\HashTable.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\IndexCreator.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\LinkedList.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ProcessorInfo.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>ViewContext</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ViewContext</Filter>
+    </ClCompile>
+    <ClCompile Include="Freedom.cpp">
+      <Filter>ViewContext</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="LandObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\BinaryFile.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Math.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Path.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\String.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Xml.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectTest3.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshletObjectTest.cpp">
+      <Filter>MeshShading</Filter>
+    </ClCompile>
+    <ClCompile Include="AmpObjectTest.cpp">
+      <Filter>MeshShading</Filter>
+    </ClCompile>
+    <ClCompile Include="RaytracingObjectTest.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12MeshletGenerator.cpp">
+      <Filter>MeshShading</Filter>
+    </ClCompile>
+    <ClCompile Include="Generation.cpp">
+      <Filter>MeshShading</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>MeshShading</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IExecute.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="DescriptorAllocator.h">
+      <Filter>DescriptorAllocator</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\HashTable.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\IndexCreator.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\LinkedList.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ProcessorInfo.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>ViewContext</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ViewContext</Filter>
+    </ClInclude>
+    <ClInclude Include="Freedom.h">
+      <Filter>ViewContext</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexLayouts.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexData.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="LandObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\BinaryFile.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Math.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Path.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\String.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Xml.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Span.h">
+      <Filter>MeshShading</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSampleHelper.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectTest3.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshletObjectTest.h">
+      <Filter>MeshShading</Filter>
+    </ClInclude>
+    <ClInclude Include="AmpObjectTest.h">
+      <Filter>MeshShading</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RaytracingObjectTest.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="RaytracingHlslCompat.h">
+      <Filter>Shader\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="HlslCompat.h">
+      <Filter>Shader\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderTable.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GpuUploadBuffer.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StepTimer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="RaytracingUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12MeshletGenerator.h">
+      <Filter>MeshShading</Filter>
+    </ClInclude>
+    <ClInclude Include="Generation.h">
+      <Filter>MeshShading</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>MeshShading</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Shaders\Common.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\MeshletCommon.hlsli">
+      <Filter>Shader\Amp</Filter>
+    </None>
+    <None Include="Shaders\MeshletUtils.hlsli">
+      <Filter>Shader\Amp</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Shaders\BasicShader.hlsl">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\MeshletMS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\MeshletPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\TestMS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\MeshletAS.hlsl">
+      <Filter>Shader\Amp</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\TestMS2.hlsl">
+      <Filter>Shader\Amp</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\TestPS.hlsl">
+      <Filter>Shader\Amp</Filter>
+    </FxCompile>
+    <FxCompile Include="Raytracing.hlsl">
+      <Filter>Shader\Raytracing</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
